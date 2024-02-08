@@ -20,14 +20,14 @@
                         <label>
                             Nombre completo
                         </label>
-                        <input id="nombre" type="text">
+                        <input id="nombre" type="text" required>
                         <p class="errorNombre" style="color:red;font-style: italic;"></p>
                     </div>
                     <div style="display: flex;flex-direction: column;">
                         <label>
                             Asunto
                         </label>
-                        <input id="asunto" type="text">
+                        <input id="asunto" type="text" required>
                         <p class="errorAsunto" style="color:red;font-style: italic;"></p>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                     <label>
                         Mensaje
                     </label>
-                    <textarea id="mensaje"></textarea>
+                    <textarea id="mensaje" required></textarea>
                     <p class="errorMensaje" style="color:red;font-style: italic;"></p>
                 </div>
                 <div>
@@ -46,7 +46,7 @@
             </form>
         </div>
     </div>
-    <script>
+    <script src="./assets/js/script.js">
     // Escríbe aquí tu código
     </script>
 </body>
